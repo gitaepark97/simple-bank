@@ -16,6 +16,12 @@ This repository clone the [Backend Master Class](https://bit.ly/backendmaster) c
     brew install golang-migrate
     ```
 
+- [Sqlc](https://github.com/kyleconroy/sqlc#installation)
+
+    ```bash
+    brew install sqlc
+    ```
+
 ### Setup infrastructure
 
 - Create the bank-network
@@ -54,4 +60,10 @@ This repository clone the [Backend Master Class](https://bit.ly/backendmaster) c
 
     ```bash
     make new_migration name=<migration_name>
+    ```
+
+- Generate SQL CRUD with sqlc:
+
+    ```bash
+    make sqlc
     ```

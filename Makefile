@@ -21,4 +21,7 @@ migratedown:
 new_migration:
 	migrate create -ext sql -dir db/migration -seq $(name)
 
-.PHONY: network postgres createdb dropdb migrateup migratedown new_migration
+sqlc:
+	sqlc generate
+
+.PHONY: network postgres createdb dropdb migrateup migratedown new_migration sqlc
