@@ -67,3 +67,11 @@ This repository clone the [Backend Master Class](https://bit.ly/backendmaster) c
     ```bash
     make sqlc
     ```
+
+### How to run
+
+- Run test:
+
+    ```bash
+    make test
+    ```

@@ -24,4 +24,7 @@ new_migration:
 sqlc:
 	sqlc generate
 
-.PHONY: network postgres createdb dropdb migrateup migratedown new_migration sqlc
+test:
+	go test -v -cover -short ./...
+
+.PHONY: network postgres createdb dropdb migrateup migratedown new_migration sqlc test
