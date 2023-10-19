@@ -75,3 +75,9 @@ This repository clone the [Backend Master Class](https://bit.ly/backendmaster) c
     ```bash
     make test
     ```
+
+- Run server:
+
+    ```bash
+    make server
+    ```
