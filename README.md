@@ -22,6 +22,12 @@ This repository clone the [Backend Master Class](https://bit.ly/backendmaster) c
     brew install sqlc
     ```
 
+- [Gomock](https://github.com/golang/mock)
+
+    ``` bash
+    go install github.com/golang/mock/mockgen@v1.6.0
+    ```
+
 ### Setup infrastructure
 
 - Create the bank-network
@@ -66,6 +72,11 @@ This repository clone the [Backend Master Class](https://bit.ly/backendmaster) c
 
     ```bash
     make sqlc
+    ```
+
+- Generate DB mock with gomock:
+    ````bash
+    make mock
     ```
 
 ### How to run
