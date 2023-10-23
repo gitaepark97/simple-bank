@@ -54,10 +54,22 @@ This repository clone the [Backend Master Class](https://bit.ly/backendmaster) c
     make migrateup
     ```
 
+- Run db migration up 1 version:
+
+    ```bash
+    make migrateup1
+    ```
+
 - Run db migration down all versions:
 
     ```bash
     make migratedown
+    ```
+
+- Run db migration down 1 version:
+
+    ```bash
+    make migratedown1
     ```
 
 ### How to generate code
